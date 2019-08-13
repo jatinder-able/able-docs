@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mdg-nav">
+  <div class="container">
+    <a class="navbar-brand" href="/" style="margin-top: 2px; margin-bottom: 3px">
+      <i class="fab fa-adn h4"></i>
+      Able Guide
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin-top: 2px">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link {% if page.title == 'Architecture' %}active{% endif %}" href="/architecture/">Architecture</a>
+
+        <a class="nav-item nav-link {% if page.title == 'Product Features' %}active{% endif %}" href="/product-features/">Product Features</a>
+
+        <a class="nav-item nav-link {% if page.title == 'User Task Flows' %}active{% endif %}" href="/user-task-flows/">User Task Flows</a>
+        
+        <a class="nav-item nav-link {% if page.title == 'Release Notes' %}active{% endif %}" href="/release-notes/">Release Notes</a>
+
+        <a class="nav-item nav-link {% if page.title == 'FAQ' %}active{% endif %}" href="/faq/">FAQ</a>
+
+        <a class="nav-item nav-link {% if page.title == 'Glossary' %}active{% endif %}" href="/glossary/">Glossary</a>
+      </div>
+      <div class="navbar-nav position-right">
+        <a class="nav-item nav-link" href="/">Home</a>
+      </div>
+    </div>
+
+  </div>
+</nav>
